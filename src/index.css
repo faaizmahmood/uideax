@@ -1,13 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(180deg, #FFFFFF 11.41%, #FAFEFF 20.45%, #FFFFFF 29.07%, #FFFFFF 35.57%, #FAFEFF 42.68%, #FFFFFF 55.6%, #FFFFFF 61.58%, #FFFFFF 67.65%, #FAFEFF 76.01%, #FDFFFF 83.85%, #FFFFFF 86.73%, #FAFEFF 95%);
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+
+
+/* ----------------
+---------HOME */
+
+.row{
+  width: 100%;
+}
+
+#navbar{
+  box-shadow: 10px 0 5px -2px #b8bbfef8;
+  padding-top: 10px;
+  width: 100%;
+}
+
+.navbar-items{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navbar-items a{
+  text-decoration: none;
+  color: #252D3B;
+}
+
+.navbar-items li{
+  text-decoration: none;
+  list-style: none;
+  margin: 0px 40px;
+  font-weight: 16px;
+  font-weight: 400;
+}
+
+.nav-btn{
+  padding: 10px 20px;
+  border-radius: 30px;
+  background-color: #755AD7;
+  border: none;
+  color: white;
+  font-weight: 16px;
+  font-weight: 400;
+}
+
+
+/* responive */
+
+
+@media (max-width:768px) {
+  .navbar-items{
+    display: none;
+  }
 }

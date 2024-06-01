@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .App-logo {
@@ -32,7 +32,86 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+/* ------------------------
+-------------------- get-started-container */
+
+
+.get-started-container {
+  border-radius: 30px;
+  box-shadow: 0px 0px 50px 10px #0000000D;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 30px;
+
+}
+
+
+.get-started-content {
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.get-started-content button {
+  padding: 12px 40px;
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 30px;
+  background-color: #755AD7;
+  box-shadow: 0px 2px 14px 0px #00000026;
+  margin: 10px 0px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+
+}
+
+.get-started-content button a {
+  text-decoration: none;
+  color: white;
+}
+
+
+/* responsive */
+
+
+@media (max-width:768px) {
+  #home #get-started {
+    margin-top: 250px;
+  }
+
+  #get-started {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+}
+
+@media (max-width:992px) {
+  .get-started-container .row-reverse-class {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .get-started-container {
+    text-align: center;
+  }
+}
+
+
+/* ------------------------------
+------------------------ footer */
+
+
+#footer a {
+  color: #282c34;
+  text-decoration: none;
 }

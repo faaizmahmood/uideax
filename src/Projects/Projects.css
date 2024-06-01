@@ -1,0 +1,155 @@
+:root {
+    --primaryColor: #252D3B;
+    --secondaryColor: #727272;
+}
+
+
+/* -----------------
+--------------- ProjectsHero */
+
+
+#ProjectsHero {
+    margin-top: 80px;
+}
+
+.ProjectsHeroContent {
+    padding-top: 20px;
+}
+
+.ProjectsHeroContent h1 {
+    color: var(--primaryColor);
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 53.25px;
+}
+
+.ProjectsHeroContent p {
+    width: 86%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: var(--secondaryColor);
+}
+
+/* responsive */
+
+@media (max-width:992px) {
+    .ProjectsHeroContent p {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+/* ----------------
+-----------------projectsTabs */
+
+
+#projectsTabs {
+    margin-top: 150px;
+}
+
+.active-tab button{
+    background-color: #755AD7;
+    color: white;
+}
+
+
+.tabs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tabs button {
+    padding: 12px 40px;
+    border: 0px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 0px 2px 14px 0px #00000026;
+    margin: 10px 15px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.tabs button a {
+    text-decoration: none;
+    color: #898989;
+
+}
+
+
+/* responsive */
+
+
+@media (max-width:992px) {
+    #projectsTabs {
+        margin-top: 80px;
+    }
+}
+
+
+/* -------------------
+------------------ projectItem*/
+
+
+.projectItem {
+    width: 33.33%;
+    padding: 0px 10px;
+    margin: 20px 0px;
+}
+
+.projectItem .projectImg {
+    box-shadow: 0px 0px 24px 0px #00000026;
+    transition: all 0.5s;
+    border-radius: 10px;
+}
+
+.projectItem .projectImg:hover {
+    scale: 1.07;
+}
+
+.projectItem h3 {
+    margin-top: 30px;
+    color: var(--primaryColor);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27.24px;
+}
+
+.projectItem p {
+    color: var(--secondaryColor);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+
+/* responsive */
+
+@media (max-width:992px) {
+    .projectItem {
+        width: 50%;
+    }
+}
+
+/* ------------------
+--------------- AllProjects */
+
+
+#AllProjects,
+#WebsiteDesignProjects,
+#MobileAppDesignProjects,
+#WebDevelopmentProjects {
+    margin-top: 60px;
+}
+
+.projectsDisplay {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/*  */
